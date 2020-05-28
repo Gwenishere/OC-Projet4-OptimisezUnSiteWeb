@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- ajouté pour Edge -->
     <meta name="description" content="La chouette agence, spécialisée en web design et située à Lyon.
-    Nous proposons de rafraichir votre site web, d'améliorer le visuel de vos pages,
-    tout en gardant l'ADN de votre société. Voici nos offres.">
+    Envie d'améliorer le visuel de vos pages web, d'allier qualité et esthétisme
+    tout en gardant l'ADN de votre société ? Contactez-nous!>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- modifié-->
     <!-- ajout -->
     <meta property="og:description" content="La chouette agence, spécialisée en web design et située à Lyon.
-    Nous proposons de rafraichir votre site web, d'améliorer le visuel de vos pages,
-    tout en gardant l'ADN de votre société. Voici nos offres.">
+    Envie d'améliorer le visuel de vos pages web, d'allier qualité et esthétisme
+    tout en gardant l'ADN de votre société ? Contactez-nous!">
     <meta property="og:url" content="https://www.lachouetteagence.com/">
     <meta property="og:site_name" content="La chouette agence">
     <meta name="robots" content="index, follow">
@@ -34,8 +34,7 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-    <title>La Chouette agence : rencontrez-nous ou contactez-nous</title>
-    
+    <title>La Chouette agence : rencontrez-nous ou contactez-nous</title>    
 </head>
 <body>
 <!-- Principal conteneur -->
@@ -64,7 +63,8 @@
    </div>
 <!-- bloc-0 END -->
 <!-- bloc-1 -->
-<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
+ <header>
+  <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
@@ -73,8 +73,9 @@
 				</h1>
 			</div>
 		</div>
-	</div>
-</div>
+	 </div>
+  </div>
+ </header>
 <!-- bloc-1 END -->
 
 <!-- bloc-2 -->
@@ -109,23 +110,34 @@
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
+
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
 					</button>
 					<p>
-						contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+					<em>La Chouette agence traite les données recueillies pour vous répondre.
+					Pour en savoir plus sur la gestion de vos données personnelles et pour exercer vos droits,
+					reportez-vous à la notice ci-jointe.</em><br>
+					Email : <a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br>2 place Sathonay 69001 Lyon<br>
+					Tel :  04 26 10 12 12 <br>
+					Ouvert de 9h à 18h, du lundi au vendredi<br>
 					</p>
 				</form>
 			</div>
 		</div>
 	</div>
-</div>
+	  <!--The div element for the map -->
+	  <div id="map">
+		<h3>Nous trouver</h3>
+		<img src="img/plan.jpg" alt="plan réduit Lyon Sathonay">
+	  </div>
+ </div>
+
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
-
 
 <!-- Footer - bloc-8 -->
 <footer>
@@ -137,25 +149,25 @@
 						La chouette agence - 2 place Sathonay 69001 Lyon<br>
 					
 					<div class="row row-no-gutters social">
-										<p>Retrouvez-nous sur ...</p> <!-- ajouté et voir si h ou p -->
+										<p>Suivez-nous sur ...</p> <!-- ajouté et voir si h ou p -->
 						<div class="col-sm-3">
-							<div class="text-center"> <!-- ajouté nom des réseaux -->
-								<a class="social" href="index.html"><span class="fa fa-twitter icon-md">Twitter</span></a>
+							<div class="text-center"> 
+								<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-facebook icon-md">Facebook</span></a>
+								<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-dribbble icon-md">Dribbble</span></a>
+								<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-instagram icon-md">Instagram</span></a>
+								<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 							</div>
 						</div>
 						<div class="keywords" style="color:#F3976C;"></div>
