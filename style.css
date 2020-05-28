@@ -22,6 +22,13 @@ h3 {
     font-weight: 700;
     color: #080808!important;
 }
+/*citation et auteur*/
+blockquote {
+    border-left: 5px solid #f37033;
+}
+cite {
+    color: #080808;
+}
 /*liens a */
 a,button {
     transition: all .3s ease-in-out;
@@ -95,8 +102,9 @@ a:hover {
 .b-parallax {
     background-attachment: fixed;
 }
+/*annuaire*/
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(255, 255, 255);
 }
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -123,7 +131,7 @@ a:hover {
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color:white;
 }
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -137,7 +145,7 @@ a:hover {
 .d-bloc h3 a:hover,
 .d-bloc h4 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(247, 178, 138, 0.7);
 }
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -320,7 +328,9 @@ a:hover {
 nav .caret {
     margin: 0 5px;
 }
-
+.logo {
+    width: 100px;
+}
 .dropdown-menu .dropdown-menu {
     top: -8px;
     left: 100%;
@@ -534,6 +544,7 @@ h5 {
     color: white;
     text-align: center;
     font-weight: bold;
+    font-size: larger;
 }
 .container {
     max-width: 1000px;
@@ -619,6 +630,11 @@ h5 {
 .bgc-atomic-tangerine {
     background-color: #f37033;
 }
+/*listes dans footer*/
+ul {
+    list-style-type: none;
+    line-height: 2em;
+}
 /*bouton contact*/
 .btn-atomic-tangerine {
     background: #f37033;
@@ -628,6 +644,7 @@ h5 {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
+
 .ltc-white {
     color: #FFFFFF!important;
 }
