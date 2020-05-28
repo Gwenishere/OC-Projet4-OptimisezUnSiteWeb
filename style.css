@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
+    background: rgb(206, 34, 34);
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
