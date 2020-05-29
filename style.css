@@ -131,7 +131,7 @@ a:hover {
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc p a {
-    color:white;
+    color:black;
 }
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -145,7 +145,7 @@ a:hover {
 .d-bloc h3 a:hover,
 .d-bloc h4 a:hover,
 .d-bloc p a:hover {
-    color: rgba(247, 178, 138, 0.7);
+    color: #fa4f00;
 }
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -628,7 +628,7 @@ h5 {
 }
 /*footer*/
 .bgc-atomic-tangerine {
-    background-color: #f37033;
+    background-color: #fa9a6d;
 }
 /*listes dans footer*/
 ul {
