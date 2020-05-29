@@ -38,6 +38,7 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
 /*blocs*/
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -413,7 +414,7 @@ button {
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
+    box-shadow: gray 0 0 2px;
 }
 
 .scrollToTop {
@@ -637,7 +638,7 @@ ul {
 }
 /*bouton contact*/
 .btn-atomic-tangerine {
-    background: #f37033;
+    background: #f04400;
     color: #FFFFFF!important;
 }
 .btn-atomic-tangerine:hover {
@@ -739,16 +740,29 @@ ul {
         margin: 10px auto 0;
     }
 }
+
+@media (min-width: 768px) and (orientation: landscape) {
+    .b-parallax {
+        background-attachment: scroll;  
+}
+}
 /*fin Media 768px*/
 /*landscape screens*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
+
+@media (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .b-parallax {
+        background-attachment: scroll;
+    }
+}
+
  /*fin media landscape screens*/
  /*Media ratio*/
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -767,10 +781,7 @@ ul {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+ 
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -779,8 +790,6 @@ ul {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 /*Fin Media 991px*/
@@ -850,7 +859,6 @@ h2,h3,h4,p,#disqus_thread {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
         box-shadow: none;
     }
     .navbar-brand img {
@@ -931,8 +939,3 @@ h2,h3,h4,p,#disqus_thread {
     }
 }
 /*fin media 400px*/
-
-#map {   
-    width: 100%;
-    margin-bottom: 5em;
-  }
