@@ -69,7 +69,7 @@
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
 				<h1 class="text-center hero-bloc-text tc-white">
-					Parlons web design !
+					Entre vous et notre agence : parlons web design !
 				</h1>
 			</div>
 		</div>
@@ -79,17 +79,23 @@
 <!-- bloc-1 END -->
 
 <!-- bloc-2 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
+<div class="col-sm-12 text-center" id="bloc-7">
 	<h2>Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 		Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 	</h2>
-	<div class="container bloc-lg">
-		<div class="row">
+	<div class="container bloc-lg text-justify">
+		<div class="row col-4 align-self-center>
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate success-msg="Votre message a été envoyé." fail-msg="Désolé, il semble que le serveur email ne réponde pas. Veuillez nous excuser">
 					<div class="form-group">
 						<label>
-							Nom
+							Indiquez-nous : le nom de votre société ou association
+						</label>
+						<input id="name" class="form-control" required />
+					</div>
+					<div class="form-group">
+						<label>
+							Votre nom
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
@@ -100,9 +106,21 @@
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
+						<label for="selection">Comment nous avez-vous connus ?</label>
+						<select id="selection" class="form-control">
+						  <option value="">Choisir</option>
+							<option value="">Bouche à oreille</option>
+							<option value="">Dribbble</option>
+							<option value="">Facebook</option>
+							<option value="">Instagram</option>
+							<option value="">Twitter</option>
+							<option value="">Autre</option>
+						</select>
+					  </div>
+					  <div class="form-group">
+					  <label>
+						  Votre e-mail
+					  </label>
 						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
@@ -111,13 +129,13 @@
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero" type="submit">
 						Envoyer
 					</button>
 					<p>
 					<em>La Chouette agence traite les données recueillies pour vous répondre.
 					Pour en savoir plus sur la gestion de vos données personnelles et pour exercer vos droits,
-					reportez-vous à la notice ci-jointe.</em><br>
+					reportez-vous à :<a href="mentionslégales.html" class="effet"> Notre page Mentions légales.</a></em><br>
 					Email : <a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br>2 place Sathonay 69001 Lyon<br>
 					Tel :  04 26 10 12 12 <br>
 					Ouvert de 9h à 18h, du lundi au vendredi<br>
@@ -127,10 +145,6 @@
 		</div>
 	</div>
 	  <!--The div element for the map -->
-	  <div id="map">
-		<h3>Nous trouver</h3>
-		<img src="img/plan.jpg" alt="plan réduit Lyon Sathonay">
-	  </div>
  </div>
 
 <!-- bloc-7 END -->
@@ -145,29 +159,33 @@
 		<div class="container bloc-sm">
 			<div class="row">
 				<div class="col-sm-12">
-					<p class="text-center white">
+					<p class="text-center black">
 						La chouette agence - 2 place Sathonay 69001 Lyon<br>
 					
 					<div class="row row-no-gutters social">
 										<p>Suivez-nous sur ...</p> <!-- ajouté et voir si h ou p -->
 						<div class="col-sm-3">
 							<div class="text-center"> 
-								<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+								<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span>
+								<p>Twitter</p></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+								<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span>
+								<p>Facebook</p></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+								<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span>
+								<p>Dribbble</p></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+								<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span>
+								<p>Instagram</p></a>
 							</div>
 						</div>
 						<div class="keywords" style="color:#F3976C;"></div>
