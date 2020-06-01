@@ -8,6 +8,8 @@ Dans le cadre du parcours développeur web, niveau Bac+2, avec Openclassrooms
 <p>➡5/ Comparaison des résultats. </p>
 
 <p>Pour ce projet, utilisation des outils suivants :</p>
-...
-...
-//en cours
+<ul>
+  <li>
+    pour compresser les images : https://compressor.io
+  </li>
+  
