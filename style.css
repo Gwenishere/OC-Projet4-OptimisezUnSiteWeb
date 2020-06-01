@@ -105,7 +105,7 @@ a:hover {
 }
 /*annuaire*/
 .d-bloc {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, .7);
 }
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -131,6 +131,8 @@ a:hover {
 .d-bloc h2 a,
 .d-bloc h3 a,
 .d-bloc h4 a,
+.d-bloc h5 a,
+.d-bloc h6 a,
 .d-bloc p a {
     color:black;
 }
@@ -412,10 +414,7 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
-.form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: gray 0 0 2px;
-}
+
 
 .scrollToTop {
     width: 40px;
@@ -606,6 +605,12 @@ h5 {
 .portfolio-thumb {
     margin-bottom: 24px;
 }
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
@@ -626,6 +631,9 @@ h5 {
 }
 .bgc-dark-slate-blue {
     background-color: #364577;
+}
+.effet {
+    margin-bottom: 2em;
 }
 /*footer*/
 .bgc-atomic-tangerine {
@@ -911,7 +919,16 @@ h2,h3,h4,p,#disqus_thread {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 1em;
+        margin: 0 auto;
+    }
+    .form-control {
+        border-color: rgba(0, 0, 0, .1);
+        box-shadow: gray 0 0 2px;
+    }
+    input {
+        width: 300px;
+        box-sizing: border-box;
     }
     .close-lightbox {
         display: inline-block;
