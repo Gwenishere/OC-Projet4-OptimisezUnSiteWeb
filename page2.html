@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- ajouté pour Edge -->
     <meta name="description" content="La chouette agence, spécialisée en web design et située à Lyon.
     Envie d'améliorer le visuel de vos pages web, d'allier qualité et esthétisme
-    tout en gardant l'ADN de votre société ? Contactez-nous!>
+    tout en gardant l'ADN de votre société ? Contactez-nous!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- modifié-->
     <!-- ajout -->
     <meta property="og:description" content="La chouette agence, spécialisée en web design et située à Lyon.
@@ -30,8 +30,7 @@
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/gmaps.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
+
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
     <title>La Chouette agence : rencontrez-nous ou contactez-nous</title>    
@@ -80,30 +79,33 @@
 
 <!-- bloc-2 -->
 <div class="col-sm-12 text-center" id="bloc-7">
-	<h2>Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-		Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-	</h2>
+
 	<div class="container bloc-lg text-justify">
-		<div class="row col-4 align-self-center>
+		<h2>Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+			Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+		</h2>
+		<div class="row col-4 align-self-center">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Votre message a été envoyé." fail-msg="Désolé, il semble que le serveur email ne réponde pas. Veuillez nous excuser">
+				<!-- enctype="multipart/form-data" action="/vers_autre_fichier" --> 
+				<form method="POST" novalidate 
+				id="form_1" >
 					<div class="form-group">
-						<label>
+						<label for="society">
 							Indiquez-nous : le nom de votre société ou association
 						</label>
-						<input id="name" class="form-control" required />
+						<input type="text" id="society" title="votre société"  class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Votre nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input type="text" id="name" name="user_name" title="votre nom" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input  type="email" id="email" name="user_email" title="email" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label for="selection">Comment nous avez-vous connus ?</label>
@@ -117,26 +119,23 @@
 							<option value="">Autre</option>
 						</select>
 					  </div>
-					  <div class="form-group">
-					  <label>
-						  Votre e-mail
-					  </label>
-						<input class="form-control" type="email" required id="input_504" />
-					</div>
+
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea id="message" name="user_message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 
-					<button class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero" type="submit">
+					<button type="submit" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero" >
 						Envoyer
 					</button>
-					<p>
-					<em>La Chouette agence traite les données recueillies pour vous répondre.
+					<div  class="effet">
+					<p>La Chouette agence traite les données recueillies pour vous répondre.
 					Pour en savoir plus sur la gestion de vos données personnelles et pour exercer vos droits,
-					reportez-vous à :<a href="mentionslégales.html" class="effet"> Notre page Mentions légales.</a></em><br>
-					Email : <a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br>2 place Sathonay 69001 Lyon<br>
+					reportez-vous à: <a href="mentionslégales.html"> notre page Mentions légales.</a></p>
+				    </div>
+					<p>Email: <a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br>2 place Sathonay 69001 Lyon<br>
 					Tel :  04 26 10 12 12 <br>
 					Ouvert de 9h à 18h, du lundi au vendredi<br>
 					</p>
@@ -146,13 +145,10 @@
 	</div>
 	  <!--The div element for the map -->
  </div>
-
 <!-- bloc-7 END -->
-
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
-
 <!-- Footer - bloc-8 -->
 <footer>
 	<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
@@ -160,8 +156,7 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<p class="text-center black">
-						La chouette agence - 2 place Sathonay 69001 Lyon<br>
-					
+						La chouette agence - 2 place Sathonay 69001 Lyon<br>					
 					<div class="row row-no-gutters social">
 										<p>Suivez-nous sur ...</p> <!-- ajouté et voir si h ou p -->
 						<div class="col-sm-3">
