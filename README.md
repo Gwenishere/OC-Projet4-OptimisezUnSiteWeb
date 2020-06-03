@@ -12,4 +12,24 @@ Dans le cadre du parcours développeur web, niveau Bac+2, avec Openclassrooms
   <li>
     pour compresser les images : https://compressor.io
   </li>
+   | Sujet | Score | Description |
+| --- | --- | --- |
+| Accessibilité | 100 mobile et 100 sur PC / 100  | OK |
+|Vitesse  | 88 mobile et 99 sur PC / 100  | Fichiers caches, supprimer fichiers CSS non indispensables |
+| SEO           | 95 mobile et 100 sur PC / 100  | Supprimer des liens dans footers ou les espacer                              |
+| Performance | 77 mobile et 68 sur PC / 100 | fichiers à supprimer |
+| Validateur HTML | aucune erreur |OK                                                          |
+| Validateur CSS | aucune erreur | OK                                           |
+
+<h3>Page 2 (page contact)</h3>
+
+   | Sujet | Score | Description |
+| --- | --- | --- |
+| Accessibilité | 100 sur mobile et 100 sur PC / 100  | OK |
+| Vitesse   |80 sur mobile et 97 sur PC/ 100  | supprimer les fichiers en trop  |
+| SEO           |100 sur mobile et sur PC 100 / 100  |OK                            |
+|Performance | 62 sur mobile et 90 sur PC / 100 | fichiers en trop, minifier un peu plus |
+| Validateur HTML | aucune erreur| OK                                     |
+| Validateur CSS | aucune erreur | OK          |
   
+
