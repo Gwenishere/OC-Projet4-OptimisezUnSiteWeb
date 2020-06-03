@@ -15,6 +15,7 @@ Dans le cadre du parcours développeur web, niveau Bac+2, avec Openclassrooms
   </ul>
   </br>
   <h3>Page index (page d'accueil)</h3>
+  
    | Sujet | Score | Description |
 | --- | --- | --- |
 | Accessibilité | 100 mobile et 100 sur PC / 100  | OK |
