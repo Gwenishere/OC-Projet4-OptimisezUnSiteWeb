@@ -22,7 +22,7 @@ Dans le cadre du parcours développeur web, niveau Bac+2, avec Openclassrooms
    | Sujet | Score | Description |
 | --- | --- | --- |
 | Accessibilité | 100  / 100  | OK |
-|Vitesse  | 87 mobile et 98 sur PC / 100  | Fichiers caches, supprimer fichiers CSS non indispensables |
+|Vitesse  | 91 mobile et 98 sur PC / 100  | Fichiers caches, supprimer fichiers CSS non indispensables |
 | SEO           |100 / 100  | OK   |
 | Performance | 87 / 100 | fichiers à supprimer, gérer les caches |
 | Validateur HTML | aucune erreur |OK              |
@@ -33,7 +33,7 @@ Dans le cadre du parcours développeur web, niveau Bac+2, avec Openclassrooms
    | Sujet | Score | Description |
 | --- | --- | --- |
 | Accessibilité | 100 / 100  | OK |
-| Vitesse   |80 sur mobile et 97 sur PC/ 100  | supprimer les fichiers en trop  |
+| Vitesse   |90 sur mobile et 99 sur PC/ 100  | gérer les caches  |
 | SEO           |100  / 100  |OK                            |
 |Performance | 88 / 100 |gérer les caches, différer |
 | Validateur HTML | aucune erreur| OK                                     |
