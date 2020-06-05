@@ -12,16 +12,19 @@ Dans le cadre du parcours développeur web, niveau Bac+2, avec Openclassrooms
   <li>
     pour compresser les images : https://compressor.io
   </li>
+  <li>
+    pour l'audit : extension Lighthouse et Page insights Google
+  </li>
   </ul>
   </br>
   <h3>Page index (page d'accueil)</h3>
   
    | Sujet | Score | Description |
 | --- | --- | --- |
-| Accessibilité | 100 mobile et 100 sur PC / 100  | OK |
-|Vitesse  | 88 mobile et 99 sur PC / 100  | Fichiers caches, supprimer fichiers CSS non indispensables |
-| SEO           | 95 mobile et 100 sur PC / 100  | Supprimer des liens dans footers ou les espacer   |
-| Performance | 70 mobile et 83 sur PC / 100 | fichiers à supprimer |
+| Accessibilité | 100  / 100  | OK |
+|Vitesse  | 91 mobile et 98 sur PC / 100  | Fichiers caches, supprimer fichiers CSS non indispensables |
+| SEO           |100 / 100  | OK   |
+| Performance | 87 / 100 | fichiers à supprimer, gérer les caches |
 | Validateur HTML | aucune erreur |OK              |
 | Validateur CSS | aucune erreur | OK              |
 
@@ -29,10 +32,10 @@ Dans le cadre du parcours développeur web, niveau Bac+2, avec Openclassrooms
 
    | Sujet | Score | Description |
 | --- | --- | --- |
-| Accessibilité | 100 sur mobile et 100 sur PC / 100  | OK |
-| Vitesse   |80 sur mobile et 97 sur PC/ 100  | supprimer les fichiers en trop  |
-| SEO           |100 sur mobile et sur PC 100 / 100  |OK                            |
-|Performance | 62 sur mobile et 90 sur PC / 100 | fichiers en trop, minifier un peu plus |
+| Accessibilité | 100 / 100  | OK |
+| Vitesse   |90 sur mobile et 99 sur PC/ 100  | gérer les caches  |
+| SEO           |100  / 100  |OK                            |
+|Performance | 88 / 100 |gérer les caches, différer |
 | Validateur HTML | aucune erreur| OK                                     |
 | Validateur CSS | aucune erreur | OK          |
   
